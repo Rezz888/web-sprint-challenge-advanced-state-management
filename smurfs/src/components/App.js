@@ -6,18 +6,13 @@ import AddSmurf from "./AddSmurf";
 function App() {
   
     return (
-      <>
-      <div className="App">
-        <h1>SMURFS! W/Redux</h1>
-
-       </div>
-       
-       <AddSmurf />
-       <Smurfs />
-       
-       
-        </>
       
+      <div className="App">
+        <h1>BE SMURFED!</h1>
+
+      <AddSmurf />
+       <Smurfs />
+       </div>
     );
   }
 

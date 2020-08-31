@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { connect } from "react-redux";
 import { postSmurf } from "../actions";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const AddSmurf = ({ postSmurf, isPosting, error }) => {
   const [formValues, setFormValues] = useState({
